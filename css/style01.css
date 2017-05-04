@@ -1,0 +1,560 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(247, 244, 227);
+
+}
+
+#rotate_menu{
+	position: fixed;
+	left: -100%;
+	top: -50%;
+	width: 100%;
+	height: 150%;
+	/*background-color: rgba(104, 59, 28, 1);*/
+	background-color: rgb(35, 140, 135);
+	z-index: 10;
+	transform-origin: right bottom;
+	transform: rotateZ(0deg);
+}
+
+
+#exit_rotate_menu{
+	font-size: 12vh;
+	position: fixed;
+	top: 0%;
+	left: 3%;
+	display: none;
+	z-index:11;
+	color: white;
+}
+
+#home{
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 33vh;
+	left: 3vh;
+	font-size: 3vh;
+	opacity: 0;
+	z-index: 11;
+	color: white;
+}
+
+#about{
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 39vh;
+	left: 3vh;
+	font-size: 3vh;
+	opacity: 0;
+	z-index: 11;
+	color: white;
+}
+
+
+
+
+#play{
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 45vh;
+	left: 3vh;
+	font-size: 3vh;
+	opacity: 0;
+	z-index: 11;
+	color: white;
+
+}
+
+
+#source{
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 51vh;
+	left: 3vh;
+	font-size: 3vh;
+	opacity: 0;
+	z-index: 11;
+	color: white;
+}
+
+
+#burger{
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 2%;
+	left: 2%;
+	width: 4vw;
+	height: 10vh;
+	border-radius: 20%;
+	overflow: hidden;
+	z-index: 9;
+		
+}
+
+.burger_content1{
+	padding: 0;
+	width: 50%;
+	height: 0.5vh;
+	/*background-color: rgb(104, 59, 28);*/
+	background-color: rgb(35, 140, 135);
+	margin: 1.2vh auto;
+	border-radius: 10%;
+	animation: moving1 2s linear infinite;
+	
+}
+
+@keyframes moving1{
+	0%  {width: 50%; margin-left: 0;}
+	33% {width: 75%; margin-left: 0;}
+	66% {width: 100%; margin-left: 0;}
+	100% {width: 50%; margin-left: 0;}
+
+}
+
+.burger_content2{
+	padding: 0;
+	width: 75%;
+	height: 0.5vh;
+	/*background-color: rgb(104, 59, 28);*/
+	background-color: rgb(35, 140, 135);
+	margin: 1.2vh auto;
+	border-radius: 10%;
+	animation: moving2 2s linear infinite;
+	
+}
+
+@keyframes moving2{
+	0%  {width: 75%; margin-left: 0;}
+	33% {width: 100%; margin-left: 0;}
+	66% {width: 50%; margin-left: 0;}
+	100% {width: 75%; margin-left: 0;}
+
+}
+
+
+.burger_content3{
+	padding: 0;
+	width: 100%;
+	height: 0.5vh;
+	/*background-color: rgb(104, 59, 28);*/
+	background-color: rgb(35, 140, 135);
+	margin: 1.2vh auto;
+	border-radius: 10%;
+	animation: moving3 2s linear infinite;
+	
+}
+
+@keyframes moving3{
+	0%  {width: 100%; margin-left: 0;}
+	33% {width: 50%; margin-left: 0;}
+	66% {width: 75%; margin-left: 0;}
+	100% {width: 100%; margin-left: 0;}
+
+}
+
+
+.burger_content4{
+	padding: 0;
+	width: 50%;
+	height: 0.5vh;
+	/*background-color: rgb(104, 59, 28);*/
+	background-color: rgb(35, 140, 135);
+	margin: 1.2vh auto;
+	border-radius: 10%;
+	animation: moving4 2s linear infinite;
+	
+}
+
+@keyframes moving4{
+	0%  {width: 50%; margin-left: 0;}
+	33% {width: 75%; margin-left: 0;}
+	66% {width: 100%; margin-left: 0;}
+	100% {width: 50%; margin-left: 0;}
+}
+
+
+#first_page{
+	height: 100vh;
+}
+
+
+#wrapper{
+	margin: 0 auto;
+	width: 50vh;
+	height: 50vh;
+	/*background-color: yellow;*/
+	position: relative;
+	top: 25%;
+	left: 0;
+	border-radius: 50%;
+	text-align: center;			
+}
+
+#concentric_1{
+	box-sizing: border-box;
+	position: absolute;
+	top: 1%;
+	left: 1%;
+	width: 98%;
+	height: 98%;
+	border-radius: 50%;
+	border: 4px solid rgb(104, 59, 28);
+	z-index: 2;
+	
+
+}
+
+#concentric_2{
+	box-sizing: border-box;
+	position: absolute;
+	top: 3%;
+	left: 3%;
+	width: 94%;
+	height: 94%;
+	border-radius: 50%;
+	border: 4px solid rgb(233, 49, 74);
+
+}
+
+#concentric_3{
+	box-sizing: border-box;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	border: 4px solid rgb(35, 140, 135);
+}
+
+#text{
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	
+}
+
+p{
+	
+	font-family: Comic;
+	font-weight: 400;
+	margin:0;
+	padding: 0;
+
+}
+
+
+.first_row{
+	/*font-size: 6vh;
+	margin-top: 19%;*/
+	position: relative;
+	top: 0;
+	left: 0;
+	color: rgb(35, 140, 135);
+	transform: scale(2.4, 2.3);
+	font-size: 4vh;
+	margin-top: 26%;
+
+}
+
+.second_row{
+	/*font-size: 8vh;
+	margin-top: 2%;*/
+	position: relative;
+	top: 0;
+	left: 0;
+	color: rgb(233, 49, 74);
+	transform: scale(1.0, 1.2);
+	font-size: 6vh;
+	margin-top: 4%;
+}
+
+.third_row{
+	/*font-size: 6vh;
+	margin-top: 2%;*/
+	position: relative;
+	top: 0;
+	left: 0;
+	color: rgb(104, 59, 28);
+	transform: scale(2.5, 2.3);
+	font-size: 4vh;
+	margin-top: 4%;
+
+}
+
+
+.numbers{
+	width: 20.5732%;
+	height:42.862%;
+	/*background-color: red;*/
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	transform-origin: left top;	
+	z-index: 0;
+}
+
+
+.odd{
+	width: 30.8598%;
+	
+}
+
+
+.twelve{
+	top: -42.862%;
+	left: 39.714%;
+	background-image: url(../images/ajfelova_kula.png);
+	transform: rotateZ(0deg) translate(0, 0);
+	
+		
+}
+
+
+.one{
+	top: -38.144%;
+	left: 83.087%;
+	transform: rotateZ(30deg) translate(0, 0);
+	background-image: url(../images/siroko.png);
+		
+}
+
+
+.two{
+	top:-5.338%;
+	left: 125.276%;
+	transform: rotateZ(60deg) translate(0, 0);
+	background-image: url(../images/rio.png);	
+}
+
+
+.three{
+	top:34.571%;
+	left: 142.86%;
+	transform: rotateZ(90deg) translate(0, 0);
+	background-image: url(../images/autobus.png);
+
+}
+
+.four{
+	top:87.522%;
+	left: 135.562%;
+	transform: rotateZ(120deg) translate(0, 0);
+	background-image: url(../images/piza.png);
+
+}
+
+
+.five{
+	top:122.714%;
+	left: 109.812%;
+	transform: rotateZ(150deg) translate(0, 0);
+	background-image: url(../images/sidnej.png);
+
+}
+
+
+.six{
+	top: 142.862%;
+	left: 60.286%;
+	transform: rotateZ(180deg) translate(0, 0);
+	background-image: url(../images/big_ben.png);
+
+}
+
+
+.seven{
+	top: 138.144%;
+	left: 16.913%;
+	transform: rotateZ(210deg) translate(0, 0);
+	background-image: url(../images/autobus02.png);
+
+}
+
+.eight{
+	top:105.338%;
+	left: -25.276%;
+	transform: rotateZ(240deg) translate(0, 0);
+	background-image: url(../images/kip_slobode.png);
+
+}
+
+.nine{
+	top: 65.429%;
+	left: -42.86%;
+	transform: rotateZ(270deg) translate(0, 0);
+	background-image: url(../images/olimp.png);
+	
+
+}
+
+.ten{
+	top: 12.478%;
+	left: -35.562%;
+	transform: rotateZ(300deg) translate(0, 0);
+	background-image: url(../images/triumfalna_kapija.png);
+
+}
+
+.eleven{
+	top: -22.715%;
+	left: -9.812%;
+	transform: rotateZ(330deg) translate(0, 0);
+	background-image: url(../images/autobus03.png);
+
+}
+
+#second_page{
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	background-image: url(../images/amsterdam.png);
+	background-repeat:no-repeat;
+	background-size: 100% 50%;
+	background-position: center bottom;
+}
+
+
+
+h1{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	bottom: 3%;
+	font-size: 10vh;
+	color: rgb(35, 140, 135);
+	}
+
+#second_page p{
+	position: absolute;
+	top: 35%;
+	left: 10%;
+	width: 80%;
+	font-size: 4vh;
+
+	
+}
+
+#third_page{
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	/*background-color: red;*/
+}
+
+#fourth_page{
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	/*background-color: blue;*/
+}
+
+
+@media screen and (max-width: 600px ){
+	#wrapper{
+	margin: 0 auto;
+	width: 47vw;
+	height: 47vw;
+	/*background-color: yellow;*/
+	position: relative;
+	top: 35%;
+	left: 0;
+	border-radius: 50%;
+	text-align: center;			
+	}
+
+	#concentric_1{
+	border: 2px solid rgb(104, 59, 28);
+	
+	}
+
+	#concentric_2{
+	
+	border: 2px solid rgb(233, 49, 74);
+
+	}
+
+	#concentric_3{
+	
+	border: 2px solid rgb(35, 140, 135);
+	}
+
+	.first_row{
+	/*font-size: 6vh;
+	margin-top: 19%;*/
+	position: relative;
+	top: 0;
+	left: 0;
+	color: rgb(35, 140, 135);
+	transform: scale(2.4, 2.3);
+	font-size: 4vw;
+	margin-top: 26%;
+
+	}
+
+	.second_row{
+	/*font-size: 8vh;
+	margin-top: 2%;*/
+	position: relative;
+	top: 0;
+	left: 0;
+	color: rgb(233, 49, 74);
+	transform: scale(1.0, 1.2);
+	font-size: 6vw;
+	margin-top: 4%;
+	}
+
+	.third_row{
+	/*font-size: 6vh;
+	margin-top: 2%;*/
+	position: relative;
+	top: 0;
+	left: 0;
+	color: rgb(104, 59, 28);
+	transform: scale(2.5, 2.3);
+	font-size: 4vw;
+	margin-top: 4%;
+
+	}
+
+	#second_page p{
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	width: 80%;
+	font-size: 4vh;
+	
+	}
+
+	#burger{
+	
+	width: 10vw;
+	
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

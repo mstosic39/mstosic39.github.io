@@ -1,0 +1,21 @@
+#indikatorWrapper{
+	margin: 10% auto;
+	padding: 0.1em;
+	width: 70%;
+	height: 4.05em;
+	border: solid 1px black;
+}
+
+
+#indikator{
+	width: 0;
+	height: 4em;
+	background-color: #6699ff;
+}
+
+
+#tekstNaDrugojStrani{
+	font-size: 2em;
+	margin-left: 47%; 
+
+}

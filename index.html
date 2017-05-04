@@ -1,0 +1,97 @@
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style01.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<body onmousemove ="moveIcons(event)">
+	<div id="burger">
+		<div class="burger_content1"></div>
+		<div class="burger_content2"></div>
+		<div class="burger_content3"></div>
+		<div class="burger_content4"></div>
+	</div>
+
+	<div id="rotate_menu"></div>
+	<div id="exit_rotate_menu">&times;</div>
+	<p id="home">Home</p>
+	<p id="about">About the game</p>
+	<p id="play">Play the game</p>
+
+
+
+	<div id="first_page">
+		<div id="wrapper">
+			<div id="concentric_1"></div>
+			<div id="concentric_2"></div>
+			<div id="concentric_3"></div>
+
+
+			<div id="text">
+				<p class="first_row">CITIES</p>
+				<p class="second_row">GUESSING</p>
+				<p class="third_row">GAME</p>
+			</div>
+			<div class="numbers twelve even"></div>
+			<div class="numbers one odd"></div>
+			<div class="numbers two even"></div>
+			<div class="numbers three odd"></div>
+			<div class="numbers four even"></div>
+			<div class="numbers five odd"></div>
+			<div class="numbers six even"></div>
+			<div class="numbers seven odd"></div>
+			<div class="numbers eight even"></div>
+			<div class="numbers nine odd"></div>
+			<div class="numbers ten even"></div>
+			<div class="numbers eleven odd"></div>
+		</div>
+	</div>	
+	<div id="second_page">
+		
+		<p>The task was to create a cities guessing game  based on the given area, for a certain period of time.
+		Area, list of cities, list of correct answers, and the time (in seconds) required for the successful completion of the game are loaded from JSON file.
+		The game was made in pure JavaScript.
+		</p>
+	</div>
+	<div id="third_page">
+
+	<div id="left">
+		<div id="levi_tekst">
+			<p class="prvi_red">OBLAST: </p>
+			<p id="oblast"></p>
+		</div>
+		
+		<div id="desni_tekst">
+			<p class="prvi_red">VREME: </p>
+			<p id="vreme"></p>
+		</div>
+		<input id="unos"></input>
+		<div id= "wrapperAutocomplete"></div>
+		<button id ="dodaj_u_listu">Ubaci u listu</button>
+	</div>	
+
+	<div id="right">
+		<div id="gornji_tekst">
+			<p>Lista izabranih gradova</p>
+		</div>
+		<div id ="lista_ubacenih_gradova"></div>
+		<button id ="zavrsi_igru">Završi igru</button>
+	</div>
+
+		
+		
+
+	</div>
+	
+
+
+
+
+
+	</div>		
+	
+
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="js/main01.js"></script>
+</html>
